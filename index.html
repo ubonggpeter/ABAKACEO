@@ -616,7 +616,7 @@
             <div class="text-center">
               <h3 class="text-2xl font-extrabold">Selected: Magnus ${plan}</h3>
               <p class="mt-2 text-[#C8C8CC]">
-                Magnus Verified PayFac Authenticator Wants to verify your entry plan deposit So you can start earning immediately, Click button below to get verified.
+                Magnus Skills Mart Verified Payments Facilitator Wants to verify your selected entry plan, This will help you to start earning immediately, Click button below to Verify.
               </p>
             </div>
             <div class="flex items-center justify-center">
@@ -666,26 +666,26 @@
         <button id="closePaymentModal" class="px-3 py-1 text-sm rounded-lg bg-white/10 hover:bg-white/15">Close</button>
       </div>
       <div class="px-6 py-5 space-y-3" id="paymentCardBody">
-        <p class="text-sm">Hi <span id="pfUserName" class="font-bold">there</span>, pay to this account to get started.</p>
+        <p class="text-sm">Hi <span id="pfUserName" class="font-bold">there</span>, pay to this account to get started.  Do not pay with Opay.</p>
         <div class="grid grid-cols-1 gap-2 text-sm">
           <div class="flex items-center justify-between bg-white/5 rounded-xl p-3 ring-1 ring-white/10">
             <div>
               <div class="text-white/70">Account number</div>
-              <div class="font-bold" id="pfAcctNo">1405908100</div>
+              <div class="font-bold" id="pfAcctNo">64836372636</div>
             </div>
             <button class="ml-3 text-xs bg-white/10 hover:bg-white/15 rounded-lg px-3 py-2" data-copy-target="#pfAcctNo">Copy</button>
           </div>
           <div class="flex items-center justify-between bg-white/5 rounded-xl p-3 ring-1 ring-white/10">
             <div>
               <div class="text-white/70">Account Name</div>
-              <div class="font-bold" id="pfAcctName">Iwuoha Princess C</div>
+              <div class="font-bold" id="pfAcctName">Ekemini Abakada</div>
             </div>
             <button class="ml-3 text-xs bg-white/10 hover:bg-white/15 rounded-lg px-3 py-2" data-copy-target="#pfAcctName">Copy</button>
           </div>
           <div class="flex items-center justify-between bg-white/5 rounded-xl p-3 ring-1 ring-white/10">
             <div>
               <div class="text-white/70">Bank</div>
-              <div class="font-bold" id="pfBank">Access Bank</div>
+              <div class="font-bold" id="pfBank">UBA</div>
             </div>
             <button class="ml-3 text-xs bg-white/10 hover:bg-white/15 rounded-lg px-3 py-2" data-copy-target="#pfBank">Copy</button>
           </div>
@@ -812,12 +812,11 @@ Payment Details I used:
 Account number: ${acctNo}
 Account Name: ${acctName}
 Bank: ${bank}
-Payment duration: ${duration}
 
 Please confirm my payment. I will upload my proof of payment now (picture/screenshot/file/pdf).`;
 
         // WhatsApp contact: 09011633869 -> use international format for wa.me (Nigeria +234)
-        const waNumber = "2348162918135";
+        const waNumber = "2349160014944";
         const url = "https://wa.me/" + waNumber + "?text=" + encodeURIComponent(msg);
         window.location.href = url;
       });
